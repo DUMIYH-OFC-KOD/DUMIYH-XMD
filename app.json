@@ -1,0 +1,31 @@
+{
+  "name": "DUMIYH-XMD",
+  "description": "ᴀʀᴇ ʏᴏᴜ ᴄʜᴀʟʟᴀɴɢᴇ ᴍᴇ ⚙️",
+  "logo": "https://i.ibb.co/GvZMczF0/381.jpg",
+  "keywords": ["bot"],
+  "success_url": "/",
+
+  "env": {
+    "SESSION_ID": {
+      "description": "add you session id .",
+      "required": true
+    },  
+
+    "ALIVE_IMG": {
+      "description": "Put your alive img here.",
+      "required": true
+    },
+    
+    "ALIVE_MSG": {
+      "description": "Put your alive msg here.",
+      "required": true
+    }   
+},
+
+     "buildpacks": [
+        {
+            "url": "https://github.com/heroku/heroku-buildpack-nodejs.git"
+        }
+     ],
+  "stack": "heroku-24"
+}
